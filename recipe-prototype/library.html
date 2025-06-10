@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Recipe Library</title>
+</head>
+<body>
+  <h1>Saved Recipes</h1>
+  <ul id="recipeList"></ul>
+  <button onclick="generateGroceryList()">Generate Grocery List</button>
+  <p id="groceryList"></p>
+  <a href="index.html">Back to Home</a>
+
+  <script>
+    const recipes = JSON.parse(localStorage.getItem("recipes")) || [];
+    const list = document.getElementById("recipeList");
+    recipes.forEach(r => {
+      const li = document.createElement("li");
+      li.innerText = r;
+      list.appendChild(li);
+    });
+
+    function generateGroceryList() {
+      document.getElementById("groceryList").innerText = "Eggs, Flour, Milk";
+    }
+  </script>
+</body>
+</html>

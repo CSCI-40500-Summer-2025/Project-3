@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Suggestion App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Recipe Suggester</h1>
+  <p>Enter ingredients you have:</p>
+  <input type="text" id="ingredientsInput" placeholder="e.g. eggs, milk, flour">
+  <button onclick="suggestRecipe()">Get Recipes</button>
+
+  <div id="recipeDisplay" style="display: none;">
+    <h2>Suggested Recipe</h2>
+    <p id="recipeName">Pancakes</p>
+    <button onclick="saveRecipe()">Save Recipe</button>
+  </div>
+
+  <a href="library.html">Go to Recipe Library</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
