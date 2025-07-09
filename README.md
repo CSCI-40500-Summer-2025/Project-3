@@ -17,6 +17,9 @@ This is a barebones prototype for a web app that suggests recipes based on your 
 This is a prototype only—actual recipe logic is not implemented.
 
 
+
+
+
 # SmartRecipe Assistant
 
 SmartRecipe Assistant is a web-based application designed to help users manage their recipes, generate grocery lists, suggest meals based on ingredient availability, and compare grocery prices across local stores. Built with scalability, usability, and offline support in mind.
