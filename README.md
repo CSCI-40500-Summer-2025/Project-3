@@ -87,7 +87,8 @@ SmartRecipe Assistant is a web-based application designed to help users manage t
 | APIs              | Price compare API    | Store-based cost breakdown           |
 
 
-You can view the architecture diagram URL in [architecture-diagram.txt](./architecture-diagram.txt).
+## architecture diagram
+# You can view the architecture diagram URL in [architecture-diagram.txt](./architecture-diagram.txt).
 
 ## 🧩 Linked Features (GitHub Issues)
 
