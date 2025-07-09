@@ -18,9 +18,8 @@ This is a prototype only—actual recipe logic is not implemented.
 
 
 
-
-
-# SmartRecipe Assistant
+# Layered software architecture
+## SmartRecipe Assistant
 
 SmartRecipe Assistant is a web-based application designed to help users manage their recipes, generate grocery lists, suggest meals based on ingredient availability, and compare grocery prices across local stores. Built with scalability, usability, and offline support in mind.
 
